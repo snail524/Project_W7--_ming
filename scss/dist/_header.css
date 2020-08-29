@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.container .header {
+  display: flex;
+  justify-content: space-between;
+}
+.container .header h1 {
+  float: left;
+}
+.container .header a {
+  background-image: url(../img/d’Perfume.png);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  display: block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.container .header .member {
+  display: flex;
+}
+.container .header .member h2 {
+  width: 100px;
+  height: 100px;
+}

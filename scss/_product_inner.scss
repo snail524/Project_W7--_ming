@@ -1,0 +1,33 @@
+.product_inner{ 
+    select{
+        height: 54px;
+        width: 160px;
+    }
+    
+    .cart_btn{
+        padding: 14px 45px;
+        width: 190px;
+        box-sizing: border;
+        font-size: 16px;
+    }
+    .right img{
+        display: none;
+    }
+}
+
+@media(max-width: 576px){
+    .left{
+        display: none;
+    }
+    .product_inner .right .img_title_banner{
+        display: block;
+    }
+    
+  }
+
+@media(max-width: 375px){
+    
+    .product_inner .right img{
+        display: block;
+    }
+  }

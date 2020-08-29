@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body {
+  color: #3F5D45;
+  font-family: 微軟正黑體, PingFang TC;
+  line-height: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: #3F5D45;
+}

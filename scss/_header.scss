@@ -1,0 +1,93 @@
+.a-img{
+    background-repeat: no-repeat;
+ 
+    background-size: contain;
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.header {
+        .a-img{
+            width: 16px;
+            height: 16px; 
+        }
+        .member{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .ham{
+                display: none;
+            }
+            .img-ham{
+                background-image: url(../img/header/bars.svg);   
+
+            }
+        }
+        .logo{
+            background-image: url(../img/header/d’Perfume.png);
+            width: 120px;
+            height: 38px;
+        }
+        ul,ul li{
+            display: flex;
+            align-items: center;
+        }
+  
+        .t-shirt {
+            background-image: url(../img/header/tshirt.svg);   
+        }
+        .user{
+            background-image: url(../img/header/user-alt.svg);
+        }
+        .cart{
+            background-image: url(../img/header/shopping-cart.svg);
+        }
+        .ham_content{
+            display: none;
+            
+        }
+}
+.nav .container ul{
+    display: flex;
+    a{
+        color: white;
+        padding: 14px ;
+    }
+}
+
+@media(max-width: 375px){
+    .header{
+        .list{
+            display: none;
+        }
+        .member .ham{
+            display: block;
+        }
+    }
+    .part2{
+        display: none;
+    }
+    .ham_content{
+        display: none;
+        background: #707070;
+            a{
+                color: white;
+                padding: 16px 0px;
+                border-bottom: white 1px solid;
+
+            }
+            .border-no{
+                border-bottom:  0px solid white;
+
+            }
+    }
+    
+}
+@media(max-width: 576px){
+    .part2{
+        display: none;
+    }
+    
+  }

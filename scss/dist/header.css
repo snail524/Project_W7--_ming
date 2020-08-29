@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.container .header h1 {
+  float: left;
+}
+.container .header a {
+  background-image: url(../img/d’Perfume.png);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  display: block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.container .header h2 {
+  color: #000;
+  background: white;
+}

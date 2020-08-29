@@ -1,0 +1,35 @@
+
+.memeber_info{
+    .number{
+        display: flex;
+        align-items: center;
+    }
+    .newmember_input{
+        color: #A5A5A5;
+    }
+    select , input{
+        width: 100%;
+        height: 38px;
+        border: #818A91 solid 1px;
+        text-indent: 5px;
+    }
+}
+.custom-control-label:before{
+    background-color: white;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+    background-color:#916000;
+}
+@media(max-width: 576px){
+    .newmember_title{
+        display: none;
+    }
+    
+  }
+
+  @media(max-width: 720px){
+    .membercenter{
+        display: none;
+    }
+    
+  }

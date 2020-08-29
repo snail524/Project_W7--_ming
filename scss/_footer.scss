@@ -1,0 +1,118 @@
+h5{
+    font-size: 50px;
+    line-height: 60px;
+}
+.footer{
+   img{
+       margin: auto;
+       display: block;
+   }
+   .footer_banner-md{
+    display: block;
+    }
+    .footer_banner-sm{
+        display: none;
+        }
+    .subscibe {
+    
+    .input{
+        position: absolute;
+        top: 35%;
+        max-width: 600px;
+        .inputmail{
+            padding: 21px 51px 21px 16px ;
+            height: 60px;
+            box-sizing: border-box
+        }
+        .enter{
+            position: absolute;
+            padding: 23px 26px;
+            height: 60px;
+            box-sizing: border-box
+        }
+        .border-2px{
+            border: solid 2px #916000 !important;
+        } 
+    }
+    }   
+    .nav_under .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0px;
+        .logo-list{
+            display: flex;
+            align-items: center;
+            p{
+                font-size: 16px;
+                line-height: 21px;
+            }
+            .logo{
+                background-image: url(../img/footer/d’Perfumew.png);
+                width: 120px;
+                height: 38px;
+            }
+        }
+        
+        .contact-list ul{
+            display: flex;
+            align-items: center;
+        }
+        p, ul a{
+            color: white;
+        }
+        
+    }
+}
+@media(max-width: 720px){
+    .footer .subscibe .input{
+        top: 0px;
+        max-width: 400px;
+        .inputmail{
+            text-indent: 14.5px;
+            width: 50%;
+        }
+        .enter{
+            width: 40%;
+        }
+    }
+    .contact-list{
+        display: none;
+    }
+    
+}
+@media(max-width: 375px){
+    .footer .subscibe .input{
+        top: 35%;
+        max-width: 375px;
+        margin: 0 auto;
+        .inputmail{
+            // padding: 21px  0px 0px  ;
+            text-indent: 14.5px;
+            width: 50%;
+            height: 60px;
+            box-sizing: border-box;
+            padding: 0px;
+        }
+        .enter{
+            position: absolute;
+            // padding: 23px 0px;
+            padding: 0px 0px;
+            width: 40%;
+            height: 60px;
+            box-sizing: border-box
+        }
+    }
+    .contact-list{
+        display: none;
+    }
+    .footer .footer_banner-md{
+        display: none;
+        }
+    .footer .footer_banner-sm{
+            display: block;
+            }
+        p{
+            font-size: 14px;
+        }
+  }
